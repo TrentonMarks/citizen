@@ -1,0 +1,13 @@
+global:
+  version: VERSION
+  css:
+    theme:
+      css/global.css: {}
+
+bootstrap:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+  js:
+    js/bootstrap.min.js: {}

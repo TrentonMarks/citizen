@@ -5,6 +5,9 @@ base theme: classy
 description: 'Custom theme by Trent Marks'
 package: Custom
 core_version_requirement: ^8 || ^9
+libraries:
+  - electric/global
+  - electric/bootstrap
 
 # Region metadata.
 regions:
