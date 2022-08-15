@@ -1,0 +1,22 @@
+uuid: 92b9ad27-ed23-4410-a477-3a2e002a0bdd
+langcode: en
+status: false
+dependencies:
+  theme:
+    - electric
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: electric_primary_local_tasks
+theme: electric
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

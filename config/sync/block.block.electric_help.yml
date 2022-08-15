@@ -1,0 +1,22 @@
+uuid: ee3640dc-78c6-4420-8970-334af7c3954c
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - electric
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: electric_help
+theme: electric
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

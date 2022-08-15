@@ -1,0 +1,22 @@
+uuid: 823169f8-392b-47c4-9d50-9db0cb636b7f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - electric
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: electric_messages
+theme: electric
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

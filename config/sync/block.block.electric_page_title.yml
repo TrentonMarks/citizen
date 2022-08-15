@@ -1,0 +1,20 @@
+uuid: 5c65f69b-c0e8-4a31-9b81-4ad1c8c12e3d
+langcode: en
+status: false
+dependencies:
+  theme:
+    - electric
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: electric_page_title
+theme: electric
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

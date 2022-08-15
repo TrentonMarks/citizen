@@ -1,0 +1,22 @@
+uuid: 759b4376-408d-4fb7-b8bc-1ab08824a048
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - electric
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: electric_powered
+theme: electric
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
